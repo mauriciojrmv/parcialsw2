@@ -5,7 +5,7 @@
       routerLink="/boards"
       class="boards-side-menu-option"
       routerLinkActive="boards-side-menu-option-selected"
-      >Tablero</a
+      >Proyectos</a
     >
     <a
       routerLink="/"
@@ -18,12 +18,12 @@
   <div class="boards-section-container">
     <div class="my-boards">
       <div class="my-boards-section-header">
-        <div class="boards-page-header-name">Tableros</div>
+        <div class="boards-page-header-name">Proyectos</div>
       </div>
       <div class="board-tile-list">
         <inline-form
           class="create-board-form"
-          defaultText="Crear nuevo tablero"
+          defaultText="Crear nuevo Proyecto"
           (handleSubmit)="createBoard($event)"
         ></inline-form>
         <a
