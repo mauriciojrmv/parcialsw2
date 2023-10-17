@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://localhost/api',
-  socketUrl: 'http://localhost.com',
+  apiUrl: 'http://parcialsw2/api',
+  socketUrl: 'http://parcialsw2.com',
 };
