@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://parcialsw2.com/api',
-  socketUrl: 'http://parcialsw2.com',
+  apiUrl: 'http://localhost:4001/api',
+  socketUrl: 'http://localhost:4001',
 };
 
 /*
