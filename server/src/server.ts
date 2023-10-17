@@ -103,7 +103,7 @@ io.use(async (socket: Socket, next) => {
 
 mongoose.connect("mongodb://127.0.0.1:27017/eltrello").then(() => {
   console.log("connected to mongodb");
-  httpServer.listen(4200, () => {
+  httpServer.listen(4300, () => {
     console.log(`API is listening on port 4001`);
   });
 });
